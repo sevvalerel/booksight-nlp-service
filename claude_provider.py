@@ -4,8 +4,8 @@ from typing import Dict
 from anthropic import Anthropic
 
 from config import ANTHROPIC_API_KEY, ANTHROPIC_MODEL, build_prompt
-from llm.base import LLMProvider
-from llm.utils import parse_label_scores
+from base import LLMProvider
+from utils import parse_label_scores
 
 logger = logging.getLogger(__name__)
 
