@@ -5,8 +5,8 @@ from google import genai
 from google.genai import types
 
 from config import GEMINI_API_KEY, GEMINI_MODEL, build_prompt
-from llm.base import LLMProvider
-from llm.utils import parse_label_scores
+from base import LLMProvider
+from utils import parse_label_scores
 
 logger = logging.getLogger(__name__)
 
