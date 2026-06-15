@@ -1,9 +1,9 @@
 import logging
 
 from config import LLM_PROVIDER
-from llm.base import LLMProvider
-from llm.claude_provider import ClaudeProvider
-from llm.gemini_provider import GeminiProvider
+from base import LLMProvider
+from claude_provider import ClaudeProvider
+from gemini_provider import GeminiProvider
 
 logger = logging.getLogger(__name__)
 

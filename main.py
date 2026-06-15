@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 
 from config import LABELS, THRESHOLDS, LLM_PROVIDER
-from llm.factory import get_provider
+from factory import get_provider
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
